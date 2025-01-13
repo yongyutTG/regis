@@ -1,0 +1,19 @@
+<?php
+include('../navregister/index.php');
+if(isset($_POST['submit'])){
+$mid=trim($_POST['mid']);
+$pname=trim($_POST['pname']);
+$fname=trim($_POST['fname']);
+$lname=trim($_POST['lname']);
+$email=trim($_POST['email']);
+$object->Updatemember(
+$mid,
+$pname,
+$fname,
+$lname,
+$email
+)
+;
+echo"<script>window.location.href = '../details/';</script>";
+}
+?>
