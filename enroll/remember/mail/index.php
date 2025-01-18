@@ -83,6 +83,7 @@ if(!$mail->Send())
 <div class="col-md-1"></div>
 </div>
 
+
 <div class="row" style="padding: 24px 0px 18px 0px;">
 <div class="col-md-1"></div>
 <div class="col-md-10"><h6 style="text-align: center;line-height: 32px;">
